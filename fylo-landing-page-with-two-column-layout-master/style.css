@@ -1,0 +1,148 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+header{
+    max-width: 1440px;
+    margin: 50px auto 50px auto;
+}
+.ralweay{
+    font-family: 'Raleway', sans-serif;
+}
+.open{
+    font-family: 'Open Sans', sans-serif;
+}
+header nav{
+    display: flex;
+}
+.logoWrapper{
+    width: 50%;
+    display: flex;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navbar ul {    
+    display: flex;
+    align-items: center;
+    list-style: none;
+  
+}
+.navbar ul li {
+    padding: 0 25px 25px 0;
+    font-weight: lighter;
+}
+main{
+    width: 100%;
+}
+.hero{
+max-width: 1440px;
+margin: 0 auto 0 auto;
+}
+.heroWrapper{
+    display:flex;
+}
+.heroleft,.heroright{
+    width: 50%;
+}
+.heroright img{
+    width: 100%;
+}
+.heroleft{
+    display: flex;
+    align-items: center;
+}
+.heroleftwrapper h1{
+    font-size: 3rem;
+}
+.heroleftwrapper p{ 
+    font-size: 1.4rem;
+}
+.heroinput input{
+    width: 50%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+}
+.heroleftwrapper a{
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    padding: 5px 30px 5px 30px;
+    margin-left: 15px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.curve img {
+    width: 100%;
+}
+.villanwrapper{
+    display: flex;
+    margin-top: -5px;
+    background-color: hsl(240, 75%, 98%);
+}
+.villanleft{
+
+}
+.villan{
+display: flex;
+margin: 0px 0px;
+background-color: hsl(240, 75%, 98%);
+}
+.villanleftwrapper h2{
+    font-size: 3rem;
+    background-color: hsl(240, 75%, 98%);
+}
+.willanleft,.villanright{
+    width: 50%;
+    background-color: hsl(240, 75%, 98%);
+}
+.villanright img{
+    width: 100%;
+}
+.stopka{
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    width: 100%;
+    margin: 0%;
+}
+.stopkawrapper{
+    display: flex;
+    background-color: hsl(238, 22%, 44%);
+}
+.stopkaleft, .stopkaright{
+    width: 50%;
+    background-color: hsl(238, 22%, 44%);
+}
+.stopkaleft{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.stopkainput input{
+    width: 50%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    margin:20px;
+}
+.denis{
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    padding: 5px 30px 5px 30px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.stopkaleftwrapper h3{
+    font-size: 3rem;
+    background-color: hsl(238, 22%, 44%);
+    padding:20px;
+}
+.stopkaleftwrapper p{ 
+    font-size: 1.4rem;
+    padding: 20px
+}
