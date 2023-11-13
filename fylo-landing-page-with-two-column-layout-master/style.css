@@ -87,7 +87,7 @@ margin: 0 auto 0 auto;
     background-color: hsl(240, 75%, 98%);
 }
 .villanleft{
-
+margin-left: 215px;
 }
 .villan{
 display: flex;
@@ -104,6 +104,7 @@ background-color: hsl(240, 75%, 98%);
 }
 .villanright img{
     width: 100%;
+    margin-top: -50px;
 }
 .stopka{
     background-color: hsl(238, 22%, 44%);
@@ -145,4 +146,85 @@ background-color: hsl(240, 75%, 98%);
 .stopkaleftwrapper p{ 
     font-size: 1.4rem;
     padding: 20px
+}
+.Bombowicz{
+    width: 50%;
+    margin-top: 50px;
+    padding: 25px;
+    outline: 2px rgba(0, 0, 0, 0.1) solid;
+    border-radius: 5px;
+    background-color: white;
+}
+.Bombowicz img{
+    margin-bottom: 10px;
+}
+.Bombowicz .andrzej{
+    display: flex;
+}
+.Bombowicz div img{
+    width: 15%;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.Bombowicz .andrzej div{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.Bombowicz .andrzej div div{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 75%;
+}
+.bomba{
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(243, 87%, 12%);
+    padding: 50px;
+    margin-top: 0;
+    max-width: 1440px;
+    color: white;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+footer .box div img{
+    margin-right: 10px;
+}
+footer li{
+    list-style-type: none;
+}
+@media (max-width: 375px) {
+    *{
+        width: 92%;
+        font-size: 8px;
+    }
+    header{
+        width: 100%;
+    }
+    header .prawo li{
+        margin-top: -20px;
+    }
+    main .gora{
+        width: 100%;
+    }
+    .curve{
+        width: 375px;
+    }
+    main .dol{
+        width: 103%;
+    }
+    img{
+        width: 10%;
+    }
+    .kyle{
+        width: 100%;
+    }
+    article .prawo button{
+        width: 50%;
+    }
+    h1{
+        line-height: normal;
+    }
 }
