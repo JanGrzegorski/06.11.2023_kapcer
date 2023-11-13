@@ -1,10 +1,16 @@
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
-body,html{
+html{
+    display: flex;
+    justify-content: center;
+}
+ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   
+    font-family: 16px;
+    font-weight: 400;
+    max-width: 1920px;
 }
 header{
     max-width: 1440px;
@@ -45,6 +51,7 @@ main{
 .hero{
 max-width: 1440px;
 margin: 0 auto 0 auto;
+margin-bottom: 150px;
 }
 .heroWrapper{
     display:flex;
@@ -80,6 +87,8 @@ margin: 0 auto 0 auto;
 }
 .curve img {
     width: 100%;
+    margin-bottom: -5px;
+  
 }
 .villanwrapper{
     display: flex;
@@ -94,49 +103,69 @@ display: flex;
 margin: 0px 0px;
 background-color: hsl(240, 75%, 98%);
 }
-.villanleftwrapper h2{
+ h2{  
     font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 50px;
     background-color: hsl(240, 75%, 98%);
-}
+}       
 .willanleft,.villanright{
     width: 50%;
     background-color: hsl(240, 75%, 98%);
+    display: flex;
+}
+.villanright{
+    display: flex;
+    margin: auto;
+    padding: auto;
 }
 .villanright img{
     width: 100%;
-    margin-top: -50px;
+    margin:-5px;
+   
 }
-.stopka{
+.article{
+    display: flex;
+    justify-content: space-between;
     background-color: hsl(238, 22%, 44%);
+    padding: 50px;
+    margin-top: 0;
+    max-width: 1440px;
     color: white;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+.article .lewo{
+    width: 35%;
+}
+.article .prawo{
+    width: 50%;
+    float: right;
+}
+.article .prawo input{
     width: 100%;
-    margin: 0%;
+    padding: 10px;
 }
-.stopkawrapper{
-    display: flex;
-    background-color: hsl(238, 22%, 44%);
+.article .prawo button{
+    margin-top: 10px;
+    width: 200px;
+    background-color: hsl(224, 93%, 58%);   
+    color: white;
+    padding: 10px;
 }
-.stopkaleft, .stopkaright{
-    width: 50%;
-    background-color: hsl(238, 22%, 44%);
-}
-.stopkaleft{
-    display: flex;
-    align-items: center;
-    margin-left: 100px;
-}
-.stopkainput input{
-    width: 50%;
-    padding: 5px 10px 5px 10px;
-    border-radius: 2px;
-    margin:20px;
-}
-.denis{
+button{
     color: white;
     background-color: hsl(224, 93%, 58%);
     padding: 5px 30px 5px 30px;
     border-radius: 2px;
     font-weight: bold;
+    text-decoration: none;
+}
+a{
+    color:hsl(170, 45%, 43%);
+    font-weight: bold;
+    text-decoration: none;
 }
 .stopkaleftwrapper h3{
     font-size: 3rem;
@@ -162,18 +191,25 @@ background-color: hsl(240, 75%, 98%);
     display: flex;
 }
 .Bombowicz div img{
-    width: 15%;
+    width: 32px;
+    height: 32px;
     border-radius: 100%;
     margin-right: 10px;
+    margin-top: 16px;
 }
 .Bombowicz .andrzej div{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    justify-items: start;
+    padding-top: 10px;
 }
 .Bombowicz .andrzej div div{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 75%;
+    padding-top: 10px;
+    justify-items: start;
+    align-items: end;
 }
 .bomba{
     margin-bottom: 10px;
@@ -184,7 +220,6 @@ footer{
     background-color: hsl(243, 87%, 12%);
     padding: 50px;
     margin-top: 0;
-    max-width: 1440px;
     color: white;
     padding-left: 12.5%;
     padding-right: 12.5%;
@@ -203,26 +238,21 @@ footer li{
     header{
         width: 100%;
     }
-    header .prawo li{
-        margin-top: -20px;
-    }
-    main .gora{
+    
+    main{
         width: 100%;
     }
     .curve{
         width: 375px;
     }
-    main .dol{
-        width: 103%;
+    main{
+        width: 100px;
     }
-    img{
-        width: 10%;
-    }
-    .kyle{
+    .Bombowicz{
         width: 100%;
     }
     article .prawo button{
-        width: 50%;
+        width: 100%;
     }
     h1{
         line-height: normal;
